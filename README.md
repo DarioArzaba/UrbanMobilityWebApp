@@ -35,12 +35,9 @@ This is a prototype for a web app designed to deliver products from a market to 
 
 The starting route has links to the three main pages of the site: Provider, User and Driver.
 
-<img src="staticfiles\ReadmeImageOne.png" alt="Provider" width="800">
-
-<img src="staticfiles\ReadmeImageTwo.png" alt="User" width="800">
-
-<img src="staticfiles\ReadmeImageThree.png" alt="Driver" width="800">
-
+Provider (Add Items to Sell) |  User (Buy Items) | Driver (Select driver and Best Route) 
+:-------------------------:|:-------------------------: |:-------------------------:
+<img src="staticfiles\ReadmeImageOne.png" alt="Provider" width="800">  | <img src="staticfiles\ReadmeImageTwo.png" alt="User" width="800"> | <img src="staticfiles\ReadmeImageThree.png" alt="Driver" width="800">
 
 
 ## License
