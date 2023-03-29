@@ -1,45 +1,50 @@
-# Python: Getting Started
+<br />
+<div align="center">
+  <a href="https://github.com/DarioArzaba/UrbanMobilityWebApp">
+    <img src="hello\static\images\logo.jpg" alt="Logo">
+  </a>
 
-A barebones Django app, which can easily be deployed to Heroku.
+  <h3 align="center">Konekt Delivery System</h3>
 
-This application supports the [Getting Started with Python on Heroku](https://devcenter.heroku.com/articles/getting-started-with-python) article - check it out.
+  <p align="center">
+    Delivery App Designed for small businesses.
+  </p>
+</div>
 
-## Running Locally
+## About The Project
 
-Make sure you have Python 3.7 [installed locally](http://install.python-guide.org). To push to Heroku, you'll need to install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli), as well as [Postgres](https://devcenter.heroku.com/articles/heroku-postgresql#local-setup).
+This is a prototype for a web app designed to deliver products from a market to small businesses.
 
-```sh
-$ git clone https://github.com/heroku/python-getting-started.git
-$ cd python-getting-started
+## Installation
 
-$ python3 -m venv getting-started
-$ pip install -r requirements.txt
+1. Download and install python
+2. Clone the repo
+   ```sh
+   git clone https://github.com/DarioArzaba/UrbanMobilityWebApp.git
+   ```
+3. Install python requirements
+   ```sh
+   pip install -r requirements.txt
+   ```
+4. Run the server (either Django or `heroku local`)
+   ```sh
+   python manage.py runserver
+   ```
 
-$ createdb python_getting_started
+## Usage
 
-$ python manage.py migrate
-$ python manage.py collectstatic
+The starting route has links to the three main pages of the site: Provider, User and Driver.
 
-$ heroku local
-```
+<img src="staticfiles\ReadmeImageOne.png" alt="Provider" width="800">
 
-Your app should now be running on [localhost:5000](http://localhost:5000/).
+<img src="staticfiles\ReadmeImageTwo.png" alt="User" width="800">
 
-## Deploying to Heroku
+<img src="staticfiles\ReadmeImageThree.png" alt="Driver" width="800">
 
-```sh
-$ heroku create
-$ git push heroku master
+## License
 
-$ heroku run python manage.py migrate
-$ heroku open
-```
-or
+Distributed under the [MIT License](https://mit-license.org/).
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+## Contact
 
-## Documentation
-
-For more information about using Python on Heroku, see these Dev Center articles:
-
-- [Python on Heroku](https://devcenter.heroku.com/categories/python)
+Dario Arzaba - dario.arzaba@gmail.com

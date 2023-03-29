@@ -316,6 +316,7 @@ h5.pro-link {
 .banner {
     background: url(../images/pic.png) no-repeat 0px 0px;
     background-size: cover;
+	min-height: 390px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -ms-background-size: cover;
@@ -345,7 +346,7 @@ h5.pro-link {
 }
 .banner-text h3 {
     font-size: 2em;
-    color: black;
+	background-color: beige;
 }
 .banner-text p {
     font-size: 1em;
