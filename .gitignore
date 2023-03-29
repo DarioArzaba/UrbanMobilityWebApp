@@ -1,7 +1,5 @@
-venv
+
 *.pyc
-.env
-db.sqlite3
 getting-started/*
 staticfiles/admin/js/*
 staticfiles/admin/img/*

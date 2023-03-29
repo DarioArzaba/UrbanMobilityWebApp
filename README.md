@@ -27,7 +27,7 @@ This is a prototype for a web app designed to deliver products from a market to 
    ```sh
    pip install -r requirements.txt
    ```
-4. Run the server (either Django or `heroku local`)
+4. Run the server (either Django or `heroku local`) at `http://127.0.0.1:8000/`
    ```sh
    python manage.py migrate
    python manage.py runserver
