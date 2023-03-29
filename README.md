@@ -21,6 +21,7 @@ This is a prototype for a web app designed to deliver products from a market to 
 2. Clone the repo
    ```sh
    git clone https://github.com/DarioArzaba/UrbanMobilityWebApp.git
+   cd UrbanMobilityWebApp
    ```
 3. Install python requirements
    ```sh
@@ -28,6 +29,7 @@ This is a prototype for a web app designed to deliver products from a market to 
    ```
 4. Run the server (either Django or `heroku local`)
    ```sh
+   python manage.py migrate
    python manage.py runserver
    ```
 
